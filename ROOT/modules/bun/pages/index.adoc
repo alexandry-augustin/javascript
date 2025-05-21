@@ -1,0 +1,6 @@
+= Bun
+:url-website: https://bun.sh/
+:url-repo: https://github.com/oven-sh/bun
+
+{url-website}[[website\]] 
+{url-repo}[[repo\]]

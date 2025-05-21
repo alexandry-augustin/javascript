@@ -1,0 +1,19 @@
+= Node
+
+== Installation
+
+[source,bash]
+----
+sudo dnf install nodejs
+----
+
+== ECMAScript Modules
+
+https://www.howtogeek.com/devops/how-to-use-ecmascript-modules-with-node-js/
+
+[,json,title="package.json"]
+----
+{
+	"type": "module", 
+}
+----
