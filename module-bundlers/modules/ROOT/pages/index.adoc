@@ -61,17 +61,3 @@ https://esbuild.github.io/[[website\]]
 https://github.com/evanw/esbuild[[repo\]]
 
 == Turbopack
-
-== Vite
-
-https://vite.dev/[[website\]]
-https://vite.dev/guide/[[docs\]]
-https://github.com/vitejs/vite[[repo\]]
-
-* esbuild (dev)
-* Rollup (prod)
-
-[,bash]
-----
-pnpm create vite@latest
-----

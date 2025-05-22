@@ -1,6 +1,8 @@
 = Deno
+:url-website: https://deno.com/
 :url-wiki: https://en.wikipedia.org/wiki/Deno_(software)
 :url-repo: https://github.com/denoland/deno
 
+{url-website}[[website\]]
 {url-wiki}[[wiki\]]
 {url-repo}[[repo\]]

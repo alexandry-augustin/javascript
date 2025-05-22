@@ -1,4 +1,0 @@
-= Yarn
-:url-website: https://yarnpkg.com/
-
-{url-website}[[website\]]

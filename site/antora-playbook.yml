@@ -5,7 +5,9 @@ content:
   sources:
   - url: ../git/ROOT/
     branches: HEAD
-  - url: ../git/package-managers/
+  - url: ../git/runtimes/
+    branches: HEAD
+  - url: ../git/module-bundlers/
     branches: HEAD
 ui:
   bundle:

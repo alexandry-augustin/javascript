@@ -1,0 +1,28 @@
+= Node
+:url-website: https://nodejs.org/en
+:url-wiki: https://en.wikipedia.org/wiki/Node.js
+:url-docs: https://nodejs.org/docs/latest/api/
+:url-repo: https://github.com/nodejs/node
+
+{url-website}[[website\]]
+{url-wiki}[[wiki\]]
+{url-docs}[[docs\]]
+{url-repo}[[repo\]]
+
+== Installation
+
+[source,bash]
+----
+sudo dnf install nodejs
+----
+
+== ECMAScript Modules
+
+https://www.howtogeek.com/devops/how-to-use-ecmascript-modules-with-node-js/
+
+[,json,title="package.json"]
+----
+{
+	"type": "module", 
+}
+----

@@ -1,9 +1,0 @@
-name: package-managers
-version: ~
-title: Package Managers
-nav:
-- modules/ROOT/nav.adoc
-- modules/node/nav.adoc
-- modules/bun/nav.adoc
-- modules/deno/nav.adoc
-- modules/yarn/nav.adoc

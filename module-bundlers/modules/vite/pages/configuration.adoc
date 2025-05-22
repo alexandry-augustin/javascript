@@ -1,0 +1,76 @@
+= Configuration
+
+https://vite.dev/config/[[docs\]]
+
+[,ts,title="vite.config.ts"]
+----
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  // ...
+})
+----
+
+== Path Aliases
+
+// `@` path alias to map to `./src`
+
+// [,javascript,title="vite.config.ts"]
+// ----
+// import path from "path";
+// 
+// export default defineConfig({
+//   resolve: {
+//       alias: {
+//         "@": path.resolve(__dirname, "./src"),
+//     },
+//   },
+// });
+// ----
+
+[,ts,title="vite.config.ts"]
+----
+export default defineConfig({
+  resolve: {
+      alias: {
+      '@': '/src', 
+    },
+  },
+});
+----
+
+Configure VS Code intelliSense: 
+
+[,json,title="jsconfig.json"]
+----
+{
+  "compilerOptions": {
+    "baseUrl": "./", 
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}
+----
+
+[,javascript]
+----
+import MyComponent from '@/components/MyComponent.[tsx|vue]';
+----
+
+== Customising Dev Server
+
+[,ts,title="vite.config.ts"]
+----
+export default defineConfig({
+  server: {
+    port: 3000,
+    open: true,
+    proxy: {
+      '/api': 'http://localhost:5000',
+    },
+  },
+});
+----

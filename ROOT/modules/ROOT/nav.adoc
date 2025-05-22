@@ -1,2 +1,1 @@
 // ** xref:index.adoc[]
-** xref:module_bundlers/index.adoc[]
