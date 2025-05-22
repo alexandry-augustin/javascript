@@ -5,6 +5,3 @@ nav:
 - modules/ROOT/nav.adoc
 - modules/core/nav.adoc
 - modules/third-party/nav.adoc
-- modules/node/nav.adoc
-- modules/bun/nav.adoc
-- modules/deno/nav.adoc
