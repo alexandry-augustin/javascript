@@ -1,0 +1,6 @@
+= Browserify
+
+https://browserify.org/[[website\]] 
+https://github.com/browserify/browserify[[repo\]]
+
+⭐14.4k

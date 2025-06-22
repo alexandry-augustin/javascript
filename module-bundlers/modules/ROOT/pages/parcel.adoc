@@ -1,0 +1,6 @@
+= Parcel
+
+https://parceljs.org/[[website\]] 
+https://github.com/parcel-bundler/parcel[[repo\]]
+
+⭐42.2k

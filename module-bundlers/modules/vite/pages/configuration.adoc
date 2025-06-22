@@ -39,21 +39,24 @@ export default defineConfig({
 });
 ----
 
+[NOTE]
+====
 Configure VS Code intelliSense: 
 
-[,json,title="jsconfig.json"]
+[,json,title="[js|ts]config.json"]
 ----
 {
   "compilerOptions": {
-    "baseUrl": "./", 
+    "baseUrl": ".", 
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ]
     }
   }
 }
 ----
+====
 
 [,javascript]
 ----

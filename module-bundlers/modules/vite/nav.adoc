@@ -1,2 +1,6 @@
 * xref:index.adoc[]
 ** xref:configuration.adoc[]
+** xref:vite-env.d.ts.adoc[]
+
+** xref:plugins/index.adoc[]
+** xref:templates/index.adoc[]

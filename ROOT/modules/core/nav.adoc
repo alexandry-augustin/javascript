@@ -1,4 +1,11 @@
 ** xref:index.adoc[]
+
 *** xref:standards/index.adoc[]
-*** xref:common.adoc[]
-*** xref:browser.adoc[]
+**** xref:standards/ECMAScript.adoc[]
+**** xref:standards/CommonJS.adoc[]
+
+*** xref:core/index.adoc[]
+
+*** xref:browser/index.adoc[]
+**** xref:browser/dom.adoc[]
+**** xref:browser/events.adoc[]

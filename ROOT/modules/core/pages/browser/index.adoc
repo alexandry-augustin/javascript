@@ -1,0 +1,25 @@
+= Browser
+
+== Embedding JavaScript into HTML
+
+[source,html]
+----
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Page Title</title>
+	</head>
+
+	<body onload="main()">
+
+		<!-- 1. import -->
+		<script src="example/script.js"></script>
+
+		<!-- 2. in place -->
+		<script type="text/javascript">
+			document.write("123");
+		</script>
+
+	</body>
+</html>
+----

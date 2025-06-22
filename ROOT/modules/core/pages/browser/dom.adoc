@@ -1,48 +1,25 @@
-= Browser
+= DOM
 
-== Embedding JavaScript into HTML
+Document Object Model
 
-[source,html]
-----
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Page Title</title>
-	</head>
-
-	<body onload="main()">
-
-		<!-- 1. import -->
-		<script src="example/script.js"></script>
-
-		<!-- 2. in place -->
-		<script type="text/javascript">
-			document.write("123");
-		</script>
-
-	</body>
-</html>
-----
-
-== Document Object Model (DOM)
-
+[,https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction]
 ____
-"When you create a script [...] you can immediately begin using the API for the https://developer.mozilla.org/en-US/docs/Web/API/Document[`document`] or https://developer.mozilla.org/en-US/docs/Web/API/Window[`window`] elements to manipulate the document itself or to get at the children of that document, which are the various elements in the web page." -- https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+When you create a script [...] you can immediately begin using the API for the https://developer.mozilla.org/en-US/docs/Web/API/Document[`document`] or https://developer.mozilla.org/en-US/docs/Web/API/Window[`window`] elements to manipulate the document itself or to get at the children of that document, which are the various elements in the web page.
 ____
 
-=== Aliases
+== Aliases
 
 `window`: `window`
 
 `document`: `window.document`
 
-=== `window`
+== `window`
 
-=== `document`
+== `document`
 
-[quote]
+[,https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction]
 ____
-"the `window` object represents something like the browser, and the `document` object is the root of the document itself. `Element` inherits from the generic `Node` interface, and together these two interfaces provide many of the  methods and properties you use on individual elements. These elements  may also have specific interfaces for dealing with the kind of data  those elements hold, as in the `table` object example in the previous section." -- https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+the `window` object represents something like the browser, and the `document` object is the root of the document itself. `Element` inherits from the generic `Node` interface, and together these two interfaces provide many of the  methods and properties you use on individual elements. These elements  may also have specific interfaces for dealing with the kind of data  those elements hold, as in the `table` object example in the previous section.
 ____
 
 |===
@@ -66,7 +43,3 @@ ____
 | https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap[`NamedNodeMap`]
 | A `namedNodeMap` is like an array, but the items are  accessed by name or index, though this latter case is merely a  convenience for enumeration, as they are in no particular order in the  list. A `namedNodeMap` has an `item()` method for this purpose, and you can also add and remove items from a `namedNodeMap`.
 |===
-
-== Events
-
-https://www.w3schools.com/jsref/event_onclick.asp

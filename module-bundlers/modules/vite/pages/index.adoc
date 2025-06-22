@@ -7,8 +7,10 @@
 {url-docs}[[docs\]]
 {url-repo}[[repo\]]
 
-* esbuild (dev)
-* Rollup (prod)
+https://github.com/vitejs/awesome-vite[[awesome-vite\]]
+
+dev:: esbuild
+prod:: Rollup
 
 == Installation
 
@@ -22,7 +24,13 @@ pnpm create vite@latest
 // pnpm create vite-app PATH_TO_PRJ
 // ----
 
-Create Vite + React app using `pnpm`:
+[NOTE]
+====
+> "Vite projects using `Typescript` option use `Babel`, and using `Typescript + SWC` option use https://swc.rs/docs/getting-started[`SWC`]."
+-- https://stackoverflow.com/questions/79111563/what-is-the-difference-of-typescript-vs-typescript-swc-when-creating-a-vite-pr
+====
+
+Create Vite + React:
 
 [source,bash]
 ----
@@ -127,12 +135,40 @@ react-project/
 └── ...
 ....
 
+[,javascript,title="App.tsx"]
+----
+function App() {
+  return (
+    <>
+      {/* ... */}
+    </>
+  )
+}
+
+export default App
+----
+
+[,javascript,title="main.tsx"]
+----
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.tsx'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+----
+
 [,html,title="index.html"]
 ----
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimal React Project</title>
   </head>

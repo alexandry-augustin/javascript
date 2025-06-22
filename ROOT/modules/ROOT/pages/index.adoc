@@ -5,3 +5,16 @@
 * node
 * bun
 * deno
+
+== Frameworks
+
+* Sveltkit (svelt)
+* Nuxt (Vue)
+* Next (react)
+* Gatsby (react)
+* Remix (react)
+
+== SSG
+
+Astro (all)
+11ty (all)
