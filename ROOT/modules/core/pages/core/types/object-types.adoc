@@ -1,0 +1,20 @@
+= Object Types
+
+[,JavaScript: The Definitive Guide (7th Edition),David Flanagan]
+____
+Any JavaScript value that is not a [primitive type] is an object [...] (that is, a member of the type object)
+____
+
+[,JavaScript: The Definitive Guide (7th Edition),David Flanagan]
+____
+The language also defines a special kind of object, known as an array, that represents an ordered collection of numbered values. 
+The JavaScript language includes special syntax for working with arrays, and arrays have some special behavior that distinguishes them from ordinary objects.
+____
+
+[,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures]
+____
+All primitive types, except `null` and `undefined`, have their corresponding object wrapper types, which provide useful methods for working with the primitive values. 
+For example, the `Number` object provides methods like `toExponential()`. 
+When a property is accessed on a primitive value, JavaScript automatically wraps the value into the corresponding wrapper object and accesses the property on the object instead. 
+However, accessing a property on `null` or `undefined` throws a `TypeError` exception, which necessitates the introduction of the https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining[optional chaining] operator.
+____

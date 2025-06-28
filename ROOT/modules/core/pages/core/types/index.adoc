@@ -1,0 +1,69 @@
+= Data Types
+
+[,JavaScript: The Definitive Guide (7th Edition),David Flanagan]
+____
+JavaScript types can be divided into two categories: 
+primitive types
+and object types. 
+____
+
+[,https://www.geeksforgeeks.org/javascript-data-types/]
+____
+In JavaScript, each value has a data type, defining its nature (e.g., Number, String, Boolean) and operations. 
+Data types are categorized into Primitive (e.g., String, Number) and Non-Primitive (e.g., Objects, Arrays).
+____
+
+
+
+|===
+| Type | `typeof` return value | Object wrapper
+
+| Null
+| `"object"`
+| N/A
+
+| Undefined
+| `"undefined"`
+| N/A
+
+| Boolean
+| `"boolean"`
+| `Boolean`
+
+| Number
+| `"number"`
+| `Number`
+
+| BigInt
+| `"bigint"`
+| `BigInt`
+
+| String
+| `"string"`
+| `String`
+
+| Symbol
+| `"symbol"`
+| `Symbol`
+|===
+
+[comment]
+--
+JavaScript has 8 data types:
+
+=== String
+
+=== Number
+
+=== Bigint
+
+=== Boolean
+
+=== Undefined
+
+=== Null
+
+=== Symbol
+
+=== Object 
+--

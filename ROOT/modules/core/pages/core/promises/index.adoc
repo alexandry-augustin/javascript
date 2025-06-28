@@ -1,0 +1,24 @@
+= Promises
+:url-docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+{url-docs}[[docs\]]
+
+== `Promise` Object
+
+[,javascript,title="index.js"]
+----
+let p = new Promise((resolve, reject) => {
+    if(true) {
+        resolve('Success');
+    }
+    else {
+        reject('Failed');
+    }
+})
+
+p.then((message) => {
+    console.log('This is in the then ' + message);
+}).catch((message) => {
+    console.log('This is in the catch ' + message);
+})
+----

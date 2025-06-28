@@ -6,6 +6,12 @@
 
 *** xref:core/index.adoc[]
 
+**** xref:core/types/index.adoc[]
+***** xref:core/types/primitive-types.adoc[]
+***** xref:core/types/object-types.adoc[]
+
+**** xref:core/promises/index.adoc[]
+
 *** xref:browser/index.adoc[]
 **** xref:browser/dom.adoc[]
 **** xref:browser/events.adoc[]
