@@ -1,2 +1,8 @@
 ** xref:index.adoc[]
 *** xref:pm2.adoc[]
+
+*** Utilities
+**** xref:prettier.adoc[]
+
+*** Other
+**** xref:eslint.adoc[]
