@@ -9,6 +9,8 @@ content:
     branches: HEAD
   - url: ../git/module-bundlers/
     branches: HEAD
+  - url: ../git/typescript/
+    branches: HEAD
 ui:
   bundle:
     # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
