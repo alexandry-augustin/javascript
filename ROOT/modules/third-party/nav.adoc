@@ -8,9 +8,11 @@
 **** xref:eslint.adoc[]
 
 *** Networking
+**** xref:hono.adoc[]
+**** xref:passportjs.adoc[]
+**** xref:nitro.adoc[]
+
 **** xref:axios/index.adoc[]
 ***** xref:axios/examples.adoc[]
 ***** xref:axios/config.adoc[]
 ***** xref:axios/instances.adoc[]
-
-**** xref:hono.adoc[]

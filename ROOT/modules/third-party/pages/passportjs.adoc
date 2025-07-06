@@ -1,0 +1,14 @@
+= passport.js
+:url-website: https://www.passportjs.org/
+:url-repo: https://github.com/jaredhanson/passport
+
+{url-website}[[website\]]
+{url-repo}[[repo\]]
+
+== Installation
+
+[,bash]
+----
+pnpm install passport
+----
+
