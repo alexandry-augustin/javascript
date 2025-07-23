@@ -4,3 +4,35 @@
 
 {url-website}[[website\]] 
 {url-repo}[[repo\]]
+
+* Built with the Zig programming language
+* Powered by JavaScriptCore (the engine used in Safari)
+
+[,https://bun.sh/docs]
+____
+It ships as a single executable called `bun`.
+____
+
+[,Gemini]
+____
+Here's a breakdown of what makes Bun an all-in-one solution:
+
+JavaScript Runtime:: {empty}
+Package Manager: {empty}
+Bundler:: Bun has a native bundler (`bun build`) that handles packaging your code for production. This eliminates the need for external bundlers like Webpack, Vite, or esbuild, simplifying your build process and often resulting in much faster build times.
+Test Runner:: Bun comes with a built-in test runner (`bun test`) that is compatible with Jest-style APIs.
+Transpiler:: Bun natively supports TypeScript and JSX/TSX. 
+Script Runner:: You can run JavaScript/TypeScript files directly with `bun run`, acting as a fast script runner.
+Web Standard APIs & Node.js Compatibility:: Bun implements many Web-standard APIs (like `fetch`, `WebSocket`, `ReadableStream`) and aims for high compatibility with Node.js built-in modules and globals (like `fs`, `path`, `Buffer`, `process`). This makes it easier to migrate existing Node.js projects to Bun and use a wide range of existing npm packages.
+____
+
+[,Gemini]
+____
+"Zero-Config" Philosophy:: Bun aims to make many things "just work" with minimal or no configuration, reducing setup overhead.
+Full-Stack Potential:: Unlike Vite, which is primarily a frontend tool, Bun is a full JavaScript runtime, meaning it can also handle your backend. This allows for a truly unified development experience where one tool manages both frontend and backend aspects. Frameworks built on Bun, like Elysia, further leverage this.
+____
+
+[,Gemini]
+____
+The trend is clear: Bun is aiming to absorb many of the functionalities traditionally handled by separate tools like Vite. For many new projects or projects looking to simplify their toolchain and maximize performance, Bun is an increasingly compelling option.
+____

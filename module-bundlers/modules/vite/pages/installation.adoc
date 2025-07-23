@@ -1,0 +1,78 @@
+= Installation
+
+[source,bash]
+----
+pnpm create vite@latest [--template TEMPLATE_NAME]
+# pnpm create vite@latest PRJ_NAME [-- --template TEMPLATE_NAME]
+----
+
+// [source,bash]
+// ----
+// pnpm create vite-app PATH_TO_PRJ
+// ----
+
+[NOTE]
+====
+> "Vite projects using `Typescript` option use `Babel`, and using `Typescript + SWC` option use https://swc.rs/docs/getting-started[`SWC`]."
+-- https://stackoverflow.com/questions/79111563/what-is-the-difference-of-typescript-vs-typescript-swc-when-creating-a-vite-pr
+====
+
+.Official templates
+* `vanilla` (JavaScript)
+* `vanilla-ts` (TypeScript)
+* `vue` (Vue.js)
+* `vue-ts` (Vue.js + TypeScript)
+* `react` (React)
+* `react-ts` (React + TypeScript)
+* `react-swc` (React + SWC)
+* `react-swc-ts` (React + SWC + TypeScript)
+* `preact` (Preact)
+* `preact-ts` (Preact + TypeScript)
+* `lit` (Lit)
+* `lit-ts` (Lit + TypeScript)
+* `svelte` (Svelte)
+* `svelte-ts` (Svelte + TypeScript)
+* `solid` (Solid)
+* `solid-ts` (Solid + TypeScript)
+* `qwik` (Qwik)
+* `qwik-ts` (Qwik + TypeScript)
+
+[,https://vite.dev/guide/]
+____
+The supported template presets are:
+
+|===
+|JavaScript|TypeScript
+
+|vanilla
+|vanilla-ts
+
+|vue
+|vue-ts
+
+|react
+|react-ts
+
+|preact
+|preact-ts
+
+|lit
+|lit-ts
+
+|svelte
+|svelte-ts
+
+|solid
+|solid-ts
+
+|qwik
+|qwik-ts
+|===
+____
+
+Run
+
+[source,bash]
+----
+pnpm run dev
+----

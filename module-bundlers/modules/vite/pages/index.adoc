@@ -12,47 +12,6 @@ https://github.com/vitejs/awesome-vite[[awesome-vite\]]
 dev:: esbuild
 prod:: Rollup
 
-== Installation
-
-[source,bash]
-----
-pnpm create vite@latest
-----
-
-// [source,bash]
-// ----
-// pnpm create vite-app PATH_TO_PRJ
-// ----
-
-[NOTE]
-====
-> "Vite projects using `Typescript` option use `Babel`, and using `Typescript + SWC` option use https://swc.rs/docs/getting-started[`SWC`]."
--- https://stackoverflow.com/questions/79111563/what-is-the-difference-of-typescript-vs-typescript-swc-when-creating-a-vite-pr
-====
-
-Create Vite + React:
-
-[source,bash]
-----
-pnpm create vite --template react-ts
-----
-
-// [source,bash]
-// ----
-// # Create Vite + React app using npm
-// npm create vite@latest vite-react-app -- --template react-ts
-// 
-// # Create Vite + React app using yarn
-// yarn create vite --template react-ts
-// ----
-
-Run
-
-[source,bash]
-----
-pnpm run dev
-----
-
 == Environment Variables
 
 [quote,https://jasonwatmore.com/post/2022/05/28/vue-3-vite-access-environment-variables-from-dotenv-env]
