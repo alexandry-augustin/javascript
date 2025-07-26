@@ -1,0 +1,11 @@
+= mongoose
+
+[[website]](https://mongoosejs.com/) [[wiki]](https://en.wikipedia.org/wiki/Mongoose_(MongoDB)) [[github]](https://github.com/Automattic/mongoose)
+
+== Installation
+
+[,bash]
+----
+pnpm install mongoose --save
+----
+

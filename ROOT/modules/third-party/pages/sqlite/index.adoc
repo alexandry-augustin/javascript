@@ -1,0 +1,11 @@
+= SQLite
+
+// https://www.sqlitetutorial.net/sqlite-nodejs/
+
+// https://www.sqlitetutorial.net/sqlite-nodejs/connect/
+
+[,bash]
+----
+sudo pnpm install -g sqlite3 --unsafe-perm
+----
+
