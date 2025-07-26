@@ -1,0 +1,17 @@
+= `zod`
+:url-docs: https://zod.dev/
+:url-repo: https://github.com/colinhacks/zod
+
+{url-docs}[[docs\]]
+{url-repo}[[repo\]]
+
+A schema declaration and validation library
+
+No dependency
+
+== Installation
+
+[,bash]
+----
+pnpm install zod
+----

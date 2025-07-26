@@ -24,3 +24,16 @@
 *** Database
 **** xref:mongoose/index.adoc[]
 **** xref:sqlite/index.adoc[]
+
+*** Validation
+
+**** xref:zod/index.adoc[]
+***** xref:zod/core/index.adoc[]
+****** xref:zod/core/types/index.adoc[]
+******* xref:zod/core/types/primitive.adoc[]
+******* xref:zod/core/types/container.adoc[]
+****** xref:zod/core/examples.adoc[]
+***** xref:zod/contrib/index.adoc[]
+****** xref:zod/contrib//zod-validation-error.adoc[]
+
+**** xref:yup/index.adoc[]
