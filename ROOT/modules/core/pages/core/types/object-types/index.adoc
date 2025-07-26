@@ -5,6 +5,22 @@ ____
 Any JavaScript value that is not a [primitive type] is an object [...] (that is, a member of the type object)
 ____
 
+Object literal syntax:
+
+[,javascript]
+----
+let myObject = {};
+typeof myObject === 'object'
+----
+
+Object constructor: 
+
+[,javascript]
+----
+let myObject = new Object();
+typeof myObject === 'object'
+----
+
 [,JavaScript: The Definitive Guide (7th Edition),David Flanagan]
 ____
 The language also defines a special kind of object, known as an array, that represents an ordered collection of numbered values. 
@@ -18,3 +34,18 @@ For example, the `Number` object provides methods like `toExponential()`.
 When a property is accessed on a primitive value, JavaScript automatically wraps the value into the corresponding wrapper object and accesses the property on the object instead. 
 However, accessing a property on `null` or `undefined` throws a `TypeError` exception, which necessitates the introduction of the https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining[optional chaining] operator.
 ____
+
+[,javascript]
+----
+const myList = [ 'first', 'second' ]
+const mySet = new Set()
+const myWeakSet = new WeakSet()
+const myMap = new Map([
+    ['first', 1], 
+    ['second', 2], 
+])
+const myWeakMap = new WeakMap([
+    ['first', 1], 
+    ['second', 2], 
+])
+----

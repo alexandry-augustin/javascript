@@ -16,6 +16,17 @@
 
 == Variables
 
+[,Gemini]
+____
+The default value of a variable that has been declared but not initialized is `undefined`.
+____
+
+[,javascript]
+----
+let myVar;
+console.assert(myVar === undefined)
+----
+
 === `var` vs `let`
 
 https://stackoverflow.com/questions/762011/what-is-the-difference-between-let-and-var[What is the difference between "let" and "var"?]

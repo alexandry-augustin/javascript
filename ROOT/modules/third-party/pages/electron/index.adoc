@@ -1,0 +1,19 @@
+= Electron
+:url-website: https://www.electronjs.org/
+:url-repo: https://github.com/electron/electron
+
+{url-website}[[website\]]
+{url-repo}[[repo\]]
+
+> "combines the Chromium rendering engine and the Node.js runtime." -- https://en.wikipedia.org/wiki/Electron_(software_framework)
+
+== Installation
+
+[,bash]
+----
+pnpm install electron --save-dev
+----
+
+== Quick Start
+
+https://github.com/electron/electron-quick-start

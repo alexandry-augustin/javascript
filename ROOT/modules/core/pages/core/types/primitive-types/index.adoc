@@ -1,0 +1,15 @@
+= Primitive Types
+
+https://masteringjs.io/tutorials/fundamentals/primitives
+
+Javascript has seven primitive data types:
+
+* `string`
+* `number`
+* `bigint`
+* `boolean`
+* `symbol` (since ES6)
+* `undefined`
+* `null`
+
+In JavaScript, a primitive is any value that isn't an object.

@@ -7,8 +7,9 @@
 *** xref:core/index.adoc[]
 
 **** xref:core/types/index.adoc[]
-***** xref:core/types/primitive-types.adoc[]
-***** xref:core/types/object-types.adoc[]
+***** xref:core/types/primitive-types/index.adoc[]
+****** xref:core/types/typeof.adoc[]
+***** xref:core/types/object-types/index.adoc[]
 
 **** xref:core/promises/index.adoc[]
 
