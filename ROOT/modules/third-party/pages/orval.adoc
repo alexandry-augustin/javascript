@@ -1,0 +1,8 @@
+= Orval
+:url-website: https://orval.dev/
+:url-docs: https://orval.dev/overview
+:url-repo: https://github.com/orval-labs/orval
+
+{url-website}[[website\]]
+{url-docs}[[docs\]]
+{url-repo}[[repo\]]

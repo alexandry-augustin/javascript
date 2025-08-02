@@ -19,6 +19,7 @@
 
 *** Frameworks
 **** xref:electron/index.adoc[]
+**** xref:tauri/index.adoc[]
 **** xref:nestjs/index.adoc[]
 
 *** Database
@@ -34,6 +35,11 @@
 ******* xref:zod/core/types/container.adoc[]
 ****** xref:zod/core/examples.adoc[]
 ***** xref:zod/contrib/index.adoc[]
-****** xref:zod/contrib//zod-validation-error.adoc[]
+****** xref:zod/contrib/zod-validation-error.adoc[]
 
 **** xref:yup/index.adoc[]
+
+*** Type Generators
+**** xref:orval.adoc[]
+**** xref:openapi-typescript-codegen.adoc[]
+**** xref:openapi-ts.adoc[]

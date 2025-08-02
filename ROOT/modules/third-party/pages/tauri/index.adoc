@@ -1,0 +1,20 @@
+= Tauri
+:url-website: https://tauri.app/
+:url-repo: https://github.com/tauri-apps/tauri
+:url-reddit: https://www.reddit.com/r/programming/comments/lns5mj/tauri_an_electron_alternative_written_in_rust/
+
+{url-website}[[website\]]
+{url-repo}[[repo\]]
+{url-reddit}[[reddit\]]
+
+[,Gemini]
+____
+Tauri's Rust backend replaces Node.js as the primary backend for desktop-specific logic that interacts with the operating system.
+____
+
+== Installation
+
+[,bash]
+----
+pnpm create tauri-app
+----

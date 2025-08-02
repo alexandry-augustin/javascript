@@ -1,0 +1,4 @@
+= `openapi-typescript-codegen`
+:url-repo: https://github.com/ferdikoomen/openapi-typescript-codegen
+
+{url-repo}[[repo\]]
