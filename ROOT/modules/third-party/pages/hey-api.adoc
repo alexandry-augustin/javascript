@@ -1,0 +1,15 @@
+= Hey API
+:url-website: https://heyapi.dev/
+:url-docs: https://heyapi.dev/openapi-ts/get-started
+:url-repo: https://github.com/hey-api/openapi-ts
+
+{url-website}[[website\]]
+{url-docs}[[docs\]]
+{url-repo}[[repo\]]
+
+[,bash]
+----
+npx @hey-api/openapi-ts \
+  -i https://get.heyapi.dev/hey-api/backend \
+  -o src/client
+----

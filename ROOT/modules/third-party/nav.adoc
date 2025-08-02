@@ -41,5 +41,9 @@
 
 *** Type Generators
 **** xref:orval.adoc[]
+**** xref:openapi-ts/index.adoc[]
+***** xref:openapi-ts/openapi-typescript.adoc[]
+***** xref:openapi-ts/openapi-fetch.adoc[]
+***** xref:openapi-ts/openapi-react-query.adoc[]
 **** xref:openapi-typescript-codegen.adoc[]
-**** xref:openapi-ts.adoc[]
+**** xref:hey-api.adoc[]

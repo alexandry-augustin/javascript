@@ -1,6 +1,0 @@
-= OpenAPI TypeScript
-:url-docs: https://heyapi.dev/
-:url-repo: https://github.com/hey-api/openapi-ts
-
-{url-docs}[[docs\]]
-{url-repo}[[repo\]]

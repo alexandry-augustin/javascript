@@ -1,0 +1,10 @@
+= OpenAPI TypeScript
+:url-website: https://openapi-ts.dev/
+// :url-docs: 
+:url-repo: https://github.com/openapi-ts/openapi-typescript
+
+{url-website}[[website\]]
+// {url-docs}[[docs\]]
+{url-repo}[[repo\]]
+
+

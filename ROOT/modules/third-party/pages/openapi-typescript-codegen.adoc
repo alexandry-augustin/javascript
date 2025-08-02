@@ -1,4 +1,12 @@
-= `openapi-typescript-codegen`
+= [DEPRECATED] `openapi-typescript-codegen`
 :url-repo: https://github.com/ferdikoomen/openapi-typescript-codegen
 
 {url-repo}[[repo\]]
+
+[,https://github.com/ferdikoomen/openapi-typescript-codegen]
+____
+IMPORTANT: Please migrate your projects to use https://github.com/hey-api/openapi-ts[@hey-api/openapi-ts]
+
+Due to time limitations on my end, this project has been unmaintained for a while now. 
+The `@hey-api/openapi-ts` project started as a fork with the goal to resolve the most pressing issues. going forward they are planning to maintain the OpenAPI generator and give it the love it deserves. Please support them with their work and make sure to migrate your projects: https://heyapi.dev/openapi-ts/migrating.html#openapi-typescript-codegen
+____

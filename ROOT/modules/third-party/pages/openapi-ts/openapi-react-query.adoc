@@ -1,0 +1,20 @@
+= `openapi-react-query`
+:url-docs: https://openapi-ts.dev/openapi-react-query/
+
+{url-docs}[[docs\]]
+
+wraps `openapi-fetch` and provides a set of type-safe hooks (`useQuery`, `useMutation`, etc.) that are ready to use with React Query.
+
+== Installation
+
+[,bash]
+----
+pnpm install openapi-react-query openapi-fetch
+pnpm install -D openapi-typescript typescript
+----
+
+.Highly recommended
+[NOTE]
+====
+Enable https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess[`noUncheckedIndexedAccess`] in your tsconfig.json (https://openapi-ts.dev/advanced#enable-nouncheckedindexedaccess-in-tsconfig[docs])
+====
