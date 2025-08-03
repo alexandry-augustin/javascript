@@ -6,6 +6,8 @@
 
 *** xref:core/index.adoc[]
 
+**** xref:core/semicolons.adoc[]
+
 **** xref:core/types/index.adoc[]
 ***** xref:core/types/primitive-types/index.adoc[]
 ****** xref:core/types/typeof.adoc[]

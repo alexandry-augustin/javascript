@@ -37,6 +37,13 @@ https://24ways.org/2014/javascript-modules-the-es6-way/
 |ECMAScript 2022
 |===
 
+[,Gemini]
+____
+ECMAScript 2015, more commonly known as ES6, was indeed a monumental release for JavaScript for several key reasons. 
+It wasn't just an incremental update; 
+it introduced a vast array of new features and paradigms that fundamentally changed how JavaScript code is written, organized, and understood.
+____
+
 == node
 
 ....
@@ -135,4 +142,24 @@ import double, { square } from 'MyModule.js';
 
 console.log(double(2));
 console.log(square(3));
+----
+
+== Alias
+
+https://stackoverflow.com/questions/39282253/how-can-i-alias-a-default-import-in-javascript[[source\]]
+
+Non-default imports:
+
+[,js]
+----
+import { foo as bar } from 'my-module';
+----
+
+Default import are already aliases:
+
+[,js]
+----
+import alias from 'my-module';
+// Or
+import {default as alias} from 'my-module';
 ----

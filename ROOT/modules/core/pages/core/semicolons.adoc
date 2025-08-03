@@ -1,0 +1,83 @@
+= Semicolons Convention
+
+// [,Gemini]
+// ____
+// The most common and recommended convention is to use semicolons explicitly at the end of every statement.
+// ____
+
+[,Gemini]
+____
+Best Practices
+
+Always use semicolons: This is the safest and most widely adopted convention. It makes your code more robust, readable, and less prone to errors.
+
+Use a linter: Tools like ESLint can enforce a consistent semicolon convention and catch potential issues, regardless of the style you choose.
+
+Be aware of ASI: Even if you use semicolons, it's helpful to understand how ASI works to debug code that might be missing them.
+____
+
+[,javascript]
+----
+return 1;
+throw new Error("Something went wrong");
+break;
+continue;
+----
+
+[,javascript]
+----
+let i = 0;
+do {
+  i++;
+} while (i < 5);
+----
+
+[,javascript]
+----
+for (let i = 0; i < 10; i++) {
+  // ...
+}
+----
+
+[,javascript]
+----
+import { a } from './module.js';
+export default a;
+----
+
+Although blocks are delimited by curly braces `{}`, you might sometimes see a semicolon after a block. 
+This is not required by the block syntax itself but might be necessary if the block is part of a larger statement, like an `if`-`else` or `do`-`while` statement.
+
+[,javascript]
+----
+if (condition) {
+  // block 1
+} else {
+  // block 2
+}; // This semicolon is not required by the block itself
+----
+
+== Automatic Semicolon Insertion (ASI)
+
+[,Gemini]
+____
+ASI will automatically insert a semicolon after "return, throw, break, and continue" keywords if they are followed by a line break. This can cause the statement to be terminated prematurely, leading to an unexpected result.
+____
+
+[,javascript]
+----
+// Incorrect (returns `undefined` because of ASI)
+function getObject() {
+  return
+  {
+    name: 'object'
+  };
+}
+
+// Correct
+function getObject() {
+  return {
+    name: 'object'
+  };
+}
+----
