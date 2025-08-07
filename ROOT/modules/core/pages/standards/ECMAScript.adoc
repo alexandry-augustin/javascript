@@ -144,6 +144,55 @@ console.log(double(2));
 console.log(square(3));
 ----
 
+[IMPORTANT]
+====
+[,Gemini]
+____
+
+[,javascript]
+----
+export default const subtract
+----
+
+is not allowed in JavaScript. 
+You can't use `export default` with a `const`, `let`, or `var` declaration in a single statement. 
+This is because `export default` is a statement that provides a single, main export for a module, while `const` (and other variable declarations) also defines a named identifier.
+
+To achieve the desired behavior, you must separate the declaration from the export statement.
+
+The Correct Ways: 
+
+Define the variable first, then export it as the default:
+
+[source,javascript,title="Main.js"]
+----
+const subtract = (a, b) => a - b;
+
+export default subtract;
+----
+
+Use an arrow function without a variable name directly in the default export:
+
+[source,javascript,title="Main.js"]
+----
+export default (a, b) => a - b;
+----
+
+This is a common and concise way to export a function anonymously as the default export.
+
+Use a named function declaration:
+
+[source,javascript,title="Main.js"]
+----
+export default function subtract(a, b) {
+  return a - b;
+}
+----
+
+In this case, the function is named (`subtract`), but it is exported as the default, so it can be imported with any name.
+____
+====
+
 == Alias
 
 https://stackoverflow.com/questions/39282253/how-can-i-alias-a-default-import-in-javascript[[source\]]
