@@ -18,3 +18,4 @@
 *** xref:browser/index.adoc[]
 **** xref:browser/dom.adoc[]
 **** xref:browser/events.adoc[]
+**** xref:browser/websocket-api.adoc[]

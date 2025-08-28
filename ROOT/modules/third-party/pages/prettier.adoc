@@ -10,3 +10,41 @@
 // {url-wiki}[[wiki\]]
 
 Code formatter
+
+== Installation
+
+[,bash]
+----
+pnpm install prettier --save-dev
+----
+
+== Usage
+
+Run for single file: 
+
+[,bash]
+----
+npx prettier --write filename.js
+----
+
+Run for multiple files: 
+
+[,bash]
+----
+npx prettier --write .
+----
+
+--write:: apply changes directly to the file instead of printing in the standard output.
+
+== `.prettierrc`
+
+[,json]
+----
+{
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 2
+}
+----
+
+== `.prettierignore`

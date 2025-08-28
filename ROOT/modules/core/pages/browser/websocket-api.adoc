@@ -1,0 +1,21 @@
+= WebSocket API
+
+[,Gemini]
+____
+the *WebSocket API* can be used in both the browser and on the server.
+However, it's important to distinguish how it's implemented in each environment.
+
+*Browser (Client-side)*
+
+In the browser, the WebSocket API is a built-in feature that enables a client to establish a persistent, two-way communication channel with a server.2 You can't use it to create a WebSocket server; it's exclusively for connecting to one. The API is accessed through the global WebSocket constructor.3
+
+*Server (Server-side)*
+
+On the server, there's no native built-in WebSocket API like in the browser. Instead, you need to use a library or a framework to create a WebSocket server.4 These libraries provide the necessary tools to handle WebSocket connections, manage communication, and broadcast messages to clients.5 Popular choices for Node.js (a common server-side JavaScript environment) include:
+
+`ws`:: A fast and simple WebSocket library.6
+`socket.io`:: A full-featured library that uses WebSockets as its primary transport but also includes fallbacks for older browsers, making it a good choice for real-time applications.  
+`uWS`:: A highly performant WebSocket library.
+
+While the fundamental concept of creating a persistent, two-way connection is the same, the actual implementation—using a built-in browser API versus a server-side library—is what differs.
+____
